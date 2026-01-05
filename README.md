@@ -2,9 +2,10 @@
 
 ##Create a Python program that greets you with Good Morning, Good Afternoon, and Good Evening. Your program should use time module to get the current hour.
 
-## Here a code  
+## Here is a code  
 """
 ## Solution 1
+```
 ### import time
 ### import datetime
 ### timestamp = time.strftime('%H:%M:%S')
@@ -28,8 +29,10 @@
     ### print("Good Afternoon!")
 ### else:
     ### print("Good Evening!")
+```
 __________________________________________
 ## Solution 2
+```
 
 ### import time
 ### timestamp = time.strftime('%H:%M:%S')
@@ -49,6 +52,7 @@ __________________________________________
  
 ### else:
     ### print("Good Night Sir!")
+```
 
 
 
